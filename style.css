@@ -8,7 +8,15 @@ body {
 .box {
     display: block;
     max-width: 800px;
+    margin: auto;
     margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box1 {
+    display: block;
     padding: 20px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,7 +27,7 @@ h1 {
     color: #333;
 }
 
-table {
+.table {
     width: 100%;
     border-collapse: collapse;
 }
@@ -40,7 +48,7 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-tr:hover {
+.table1 tr:hover {
     background-color: #eaeaea;
 }
 
@@ -52,46 +60,90 @@ p {
 .box2 {
     display: block;
     max-width: 800px;
+    margin: auto;
     margin-top: 20px;
     padding: 20px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.box2 {
-    width: 100%;
-    margin: auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 .table2 {
     width: 100%;
-    border-collapse: collapse;
     margin: auto;
-    
+    border-collapse: collapse;
 }
 
-.table2 th, td {
+.table2 th,
+td {
     padding: 15px;
-    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+.table2 th.noborder {
+    border: none;
 }
 
 .table2 th {
-    background-color: #697076;
-    color: white;
+    background-color: #e3de4d;
+    color: rgb(118, 116, 116);
 }
 
-.table2 td {
-    background-color: #f9f9f9;
+.table2 tr:nth-child(odd) {
+    background-color: #dedede;
 }
 
-.table2:nth-child(even) td {
+.table2 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-.table2:hover td {
-    background-color: #eaeaea;
+.table2 tr:hover {
+    background-color: #cbc8c8;
+}
+
+.box3 {
+    display: block;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box4 {
+    display: block;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box5 {
+    display: block;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table3 {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.table3 th {
+    background-color: rgb(241, 119, 119);
+    color: #333;
+}
+
+.table3 td {
+    background-color: white;
+}
+
+img {
+    height: 100px;
+}
+
+.table3 th.noborder {
+    border: none;
 }
